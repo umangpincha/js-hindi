@@ -38,9 +38,19 @@
 
 
 // Conversion to boolean
-let isLoggedIn = "";
-isLoggedIn = Boolean(isLoggedIn); //false
-console.log(isLoggedIn);
-console.log(typeof(isLoggedIn));
+// let isLoggedIn = "";
+// isLoggedIn = Boolean(isLoggedIn); //false
+// console.log(isLoggedIn);
+// console.log(typeof(isLoggedIn));
 
-// "" => false , "Umang" => true
+// "" => false , "Umang" => 
+
+
+
+// *************************** Operations **************************************
+
+console.log("1" + 2);
+console.log(1 + "2");
+console.log("1" + "2");
+console.log("1" + 2 + 2);
+console.log(1 + 2 + "2");
