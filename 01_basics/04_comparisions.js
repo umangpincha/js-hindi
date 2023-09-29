@@ -9,14 +9,14 @@
 // Equaliity (==) , comparision (> , < , >= , <=) work differently .
 // Comparision converst null to a number treating it as 0 
 console.log(null > 0); // false
-console.log(null == 0); // false
+console.log(null == 0); // false(equality operator thatsy false)
 console.log(null >= 0); // true
 
 
-// undefined always gives false as output
+// undefined always gives "false" as output
 // console.log(undefined > 0);
 // console.log(undefined == 0); 
 // console.log(undefined >= 0); 
 
-console.log("2" == 2);
-console.log("2" === 2);
+console.log("2" == 2); //true
+console.log("2" === 2); //false

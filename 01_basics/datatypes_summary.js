@@ -6,7 +6,7 @@
 
 
 //Reference (Non Primitive)
-// Array , Onjects , Functions
+// Array , Objects , Functions
 
 
 // const score = 100
@@ -34,7 +34,10 @@ const myFunction = function() {
 
 console.log(typeof myFunction); //function object
 console.log(typeof  myObj); //object
-console.log(typeof  heros); object
+console.log(typeof  heros); //object
+
+
+
 
 
 // return type
@@ -49,6 +52,12 @@ console.log(typeof  heros); object
 // object - object
 // function - object function
 
+
+// Non primitive types takes reference 
+let myObj2 = myObj.name;
+myObj2.name = "Lola"
+console.log(myObj.name);
+console.log(myObj2);
 
 
 
