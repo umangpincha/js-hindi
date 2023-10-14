@@ -17,8 +17,8 @@
 
 const id = Symbol('123')
 const anotherId = Symbol('123')
-console.table([id,anotherId]);
-console.log(id === anotherId); // false
+// console.table([id,anotherId]);
+// console.log(id === anotherId); // false
 
 
 const heros = ["shaktiman" , "naagraj" , "doga"]
@@ -32,9 +32,9 @@ const myFunction = function() {
     console.log("My Function");
 }
 
-console.log(typeof myFunction); //function object
-console.log(typeof  myObj); //object
-console.log(typeof  heros); //object
+// console.log(typeof myFunction); //function object
+// console.log(typeof  myObj); //object
+// console.log(typeof  heros); //object
 
 
 
@@ -54,10 +54,10 @@ console.log(typeof  heros); //object
 
 
 // Non primitive types takes reference 
-let myObj2 = myObj.name;
-myObj2.name = "Lola"
+let myObj2 = myObj;
+myObj2.name = "lola"
+console.log(myObj2.name);
 console.log(myObj.name);
-console.log(myObj2);
 
 
 
